@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  width: 1920px;
+}
+
+.wrap .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap .container .content h2 {
+  font-size: 32px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  line-height: 43px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.wrap .container .content h2 span {
+  font-size: 24px;
+  font-weight: 500;
+  color: #a00404;
+  margin-left: 16px;
+}
+
+.wrap .container .content h2::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.wrap .container .content p {
+  font-size: 24px;
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.wrap .container .content p:last-child {
+  margin-bottom: 0;
+}
+
+.wrap .container .profile {
+  padding: 47px 0 72px;
+}
+
+.wrap .container .profile h1 {
+  font-size: 80px;
+  line-height: 94px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  position: relative;
+  padding-bottom: 17px;
+}
+
+.wrap .container .profile h1::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.wrap .container .profile img {
+  padding: 48px 0;
+}
+
+.wrap .center {
+  text-align: center;
+  background: #415165;
+  padding: 24px 0 36px;
+}
+
+.wrap .center .content {
+  margin-bottom: 0;
+}
+
+.wrap .center .content h2 {
+  color: #ffffff;
+  padding-bottom: 8px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap .center .content h2 span {
+  color: #ffffff;
+}
+
+.wrap .center .content h2::after {
+  width: 90%;
+  background-color: #ffffff;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.wrap .center .content ul {
+  margin-top: 40px;
+}
+
+.wrap .center .content ul li {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 36px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.wrap .skills .container .content ul {
+  display: inline-block;
+  position: relative;
+}
+
+.wrap .skills .container .content ul::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #ffffff;
+  opacity: 0.5;
+  position: absolute;
+  left: -24px;
+}
+
+.wrap .skills .container .content ul li {
+  text-align: left;
+}
+
+.wrap .skills .container .content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.wrap .work {
+  padding: 72px 0 72px;
+}
+
+.wrap .work .content p {
+  margin-bottom: 8px;
+}
+
+.wrap .work .content p:nth-child(4) {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+
+.wrap .work .content img {
+  margin-bottom: 8px;
+  width: 90px;
+  height: 90px;
+}
+
+.wrap .work .content ul li {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 24px;
+}
+
+.wrap .work .content ul li:last-child {
+  margin-bottom: 0;
+}
+
+.wrap .work .content ul li img {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
