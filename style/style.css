@@ -312,4 +312,12 @@ table {
 .wrap .work .content ul li img {
   margin-bottom: 0;
 }
+
+.wrap .footer .social-media img {
+  margin-right: 24px;
+}
+
+.wrap .footer .social-media img:last-child {
+  margin-right: 0;
+}
 /*# sourceMappingURL=style.css.map */
