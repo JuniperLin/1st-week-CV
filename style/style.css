@@ -213,6 +213,14 @@ table {
   padding: 48px 0;
 }
 
+.wrap .container .profile .content {
+  margin-bottom: 72px;
+}
+
+.wrap .container .profile .content:last-child {
+  margin-bottom: 0;
+}
+
 .wrap .center {
   text-align: center;
   background: #415165;

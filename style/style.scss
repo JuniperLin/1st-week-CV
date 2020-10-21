@@ -68,6 +68,12 @@
       img {
         padding: 48px 0;
       }
+      .content {
+        margin-bottom: 72px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 
