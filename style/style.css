@@ -321,11 +321,28 @@ table {
   margin-bottom: 0;
 }
 
+.wrap .footer ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.wrap .footer ul li a:hover {
+  text-decoration: underline;
+}
+
 .wrap .footer .social-media img {
   margin-right: 24px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .wrap .footer .social-media img:last-child {
   margin-right: 0;
+}
+
+.wrap .footer .social-media img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 /*# sourceMappingURL=style.css.map */

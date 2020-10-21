@@ -170,11 +170,27 @@
   }
 
   .footer {
+    ul {
+      li {
+        a {
+          text-decoration: none;
+          color: $centerFontColor;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
     .social-media {
       img {
         margin-right: 24px;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
         &:last-child {
           margin-right: 0;
+        }
+        &:hover {
+          transform: scale(1.1);
         }
       }
     }
