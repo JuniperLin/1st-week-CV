@@ -307,6 +307,20 @@ table {
   height: 90px;
 }
 
+.wrap .work .content ul {
+  position: relative;
+  left: 48px;
+}
+
+.wrap .work .content ul::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background: #96a9c4;
+  position: absolute;
+  left: -24px;
+}
+
 .wrap .work .content ul li {
   font-size: 24px;
   line-height: 36px;
@@ -314,10 +328,6 @@ table {
 }
 
 .wrap .work .content ul li:last-child {
-  margin-bottom: 0;
-}
-
-.wrap .work .content ul li img {
   margin-bottom: 0;
 }
 

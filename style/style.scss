@@ -154,14 +154,21 @@
         height: 90px;
       }
       ul {
+        position: relative;
+        left: 48px;
+        &::before {
+          content: "";
+          width: 1px;
+          height: 100%;
+          background: #96a9c4;
+          position: absolute;
+          left: -24px;
+        }
         li {
           font-size: 24px;
           line-height: 36px;
           margin-bottom: 24px;
           &:last-child {
-            margin-bottom: 0;
-          }
-          img {
             margin-bottom: 0;
           }
         }
